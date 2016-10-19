@@ -1,0 +1,32 @@
+{
+  "name": "sails-hook-sequelize-pubsub",
+  "version": "0.2.1",
+  "description": "The PubSub hook for sails-hook-sequelize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ya-kostik/sails-hook-sequelize-pubsub.git"
+  },
+  "keywords": [
+    "pubsub",
+    "sails",
+    "sequelize",
+    "hook"
+  ],
+  "author": "Nuvin Gunputh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nuving/sails-hook-sequelize-pubsub/issues"
+  },
+  "homepage": "https://github.com/nuving/sails-hook-sequelize-pubsub#readme",
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "sails-stringfile": "^0.3.2"
+  },
+  "sails": {
+    "isHook": true
+  }
+}
