@@ -1043,14 +1043,14 @@ module.exports = function(sails) {
       /**
        * Publish the creation of a model
        *
-       * @param {Object} values
+       * @param {Object} models
        *                - the data to publish
        *
        * @param {Request|Socket} req - if specified, broadcast using this socket (effectively omitting it)
        * @api private
        */
 
-      publishCreate: function(values, req, options) {
+      publishCreate: function(models, req, options) {
         var self = this;
 
         // Pluralize so we can use this method regardless of it is an array or not
